@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button:hover{
+    /* scale: 0.92; */
+    scale: 0.92;
+    transition: scale() ease-in-out;
+}
